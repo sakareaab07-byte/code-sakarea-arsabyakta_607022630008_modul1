@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+float feranhait;
+
+    cout << "berapa feranhait ";
+    cin >> feranhait;
+    float Celcius  = (feranhait - 32) * 5/9;
+
+    cout << " hasil konversi = " << Celcius << " celcius";
+return 0;
+}
