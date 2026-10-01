@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+float panjangkain = 50.5;
+float kainterpakai;
+
+    cout << "kain yang terpakai = ";
+    cin >> kainterpakai;
+    float sisakain = (panjangkain - kainterpakai);
+
+    cout << "sisa kain = " << sisakain << " meter";
+return 0;
+}
