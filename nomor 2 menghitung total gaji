@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+float gajikaryawan = 50000;
+float jamkerja;
+
+    cout << "masukan jam kerja = ";
+    cin >> jamkerja;
+    float total = (gajikaryawan * jamkerja);
+
+    cout << "total = " << total << " Rupiah";
+return 0;
+}
